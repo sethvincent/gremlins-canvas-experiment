@@ -1,0 +1,21 @@
+{
+  "name": "gremlins-canvas-experiment",
+  "description": "experimenting with gremlins.js and the canvas",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/gremlins-canvas-experiment.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "beefy index.js:bundle.js --live"
+  },
+  "dependencies": {
+    "gremlins.js": "^0.1.0",
+    "gameloop": "^0.3.1"
+  },
+  "devDependencies": {
+    "beefy": "^1.1.0",
+    "browserify": "^3.32.1"
+  }
+}
